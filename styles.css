@@ -324,3 +324,33 @@ nav a{
     border:2px solid #1f2937;
     color:#1f2937;
 }
+
+/* footer */
+
+footer{
+    background-color:#0f1d2d;
+    padding:40px 0;
+}
+
+.footer-container{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left p{
+    color:#ffffff;
+    font-size:15px;
+}
+.footer-right{
+    display:flex;
+    gap:25px;
+}
+
+.footer-right h5{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:15px;
+}
