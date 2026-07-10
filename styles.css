@@ -1,14 +1,14 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 body{
-    font-family:"Open Sans",sans-serif;
+    font-family: "Open Sans",sans-serif;
 }
 header{
-    height:80px;
-    display:flex;
-    justify-content:space-between;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
     align-items:center;
     padding:0 80px;
     background:white;
@@ -19,19 +19,19 @@ header{
 .logo{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap: 10px;
 }
 
 .icon{
-    width:40px;
-    height:40px;
-    background:#0f172a;
+    width: 40px;
+    height: 40px;
+    background: #0f172a;
     color:white;
-    border-radius:8px;
-    display:flex;
-    justify-content:center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
     align-items:center;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .logo h2{
@@ -57,7 +57,6 @@ nav a{
     text-decoration:none;
     color:#7e7c7c;
     font-size:15px;
-    transition:.3s;
 }
 
 /* header button */
@@ -197,4 +196,131 @@ nav a{
     margin-top:10px;
     color:#6b7280;
     font-size:16px;
+}
+
+/* pricing cards start here */
+
+.pricing{
+    padding:100px 80px;
+    background:#ffffff;
+}
+
+.pricing-title{
+    text-align:center;
+    font-size:60px;
+    font-weight:800;
+    color:#142235;
+}
+
+.pricing-subtitle{
+
+    text-align: center;
+    color:#777;
+    font-size:24px;
+    margin-top:20px;
+    margin-bottom:70px;
+}
+
+
+.pricing-container{
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+
+.pricing-card{
+    width: 380px;
+    background #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 35px;
+}
+
+
+.featured{
+    background: #132131;
+    color: white;
+}
+
+.featured hr{
+    border-color: rgba(255,255,255,.15);
+}
+
+
+.plan-name{
+    color: #8a8a8a;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.featured .plan-name{
+    color:#67a8ff;
+}
+
+.plan-price{
+    font-size:65px;
+    margin-top:15px;
+}
+
+.plan-text{
+    color:#777;
+    margin-top:5px;
+    margin-bottom:30px;
+}
+
+.featured .plan-text{
+    color:#c7c7c7;
+}
+
+
+.pricing-card hr{
+    border:none;
+    border-top:1px solid #000000;
+    margin-bottom:30px;
+}
+
+
+/* .pricing-card ul{
+    list-style:none;
+} */
+
+.pricing-card li{
+    margin-bottom:20px;
+    font-size:20px;
+    line-height:1.5;
+}
+
+.pricing-btn{
+    
+    display:block;
+    width:350px;
+    margin:40px auto 0;
+    text-align:center;
+    padding:16px 40px;
+    border:2px solid #2d5be3;
+    color:#2d5be3;
+    border-radius:8px;
+    font-weight:700;
+}
+
+.pricing-btn-2{
+    display: block;
+    width: 350px;
+    margin: 40px auto 0;
+    padding: 16px 40px;
+    text-align: center;
+    background:#2d5be3;
+    color:white;
+    border:none;
+    border-radius: 8px;
+ }
+    
+
+.contact-btn{
+    border:2px solid #1f2937;
+    color:#1f2937;
 }
