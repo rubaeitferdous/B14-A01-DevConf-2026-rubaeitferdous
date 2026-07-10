@@ -356,3 +356,653 @@ footer{
     text-decoration:none;
     font-size:15px;
 }
+
+/* ===========================
+        GLOBAL
+=========================== */
+
+.section{
+    padding:100px 8%;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    font-size:42px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.section-description{
+    text-align:center;
+    color:#666;
+    max-width:650px;
+    margin:auto;
+    margin-bottom:60px;
+    line-height:1.7;
+}
+
+.btn{
+
+    display:inline-block;
+    margin-top:30px;
+
+    background:#2d5be3;
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    background:#010206;
+
+    transform:translateY(-3px);
+
+}
+
+
+/* ===========================
+        Sponsors
+=========================== */
+
+.sponsor-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:30px;
+
+}
+
+.sponsor-card{
+
+    height:140px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.sponsor-card img{
+
+    width:120px;
+
+    filter:grayscale(100%);
+
+    transition:.3s;
+
+}
+
+.sponsor-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.sponsor-card:hover img{
+
+    filter:grayscale(0);
+
+}
+
+
+/* ===========================
+        Hackathon
+=========================== */
+
+.hackathon{
+
+    background:#101820;
+
+    color:white;
+
+}
+
+.hackathon-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.hackathon-text h2{
+
+    font-size:44px;
+
+    margin-bottom:20px;
+
+}
+
+.hackathon-text p{
+
+    color:#d9d9d9;
+
+    line-height:1.8;
+
+}
+
+.hackathon-features{
+
+    margin-top:35px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.feature{
+
+    background:#1a2635;
+
+    padding:18px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:center;
+
+    transition:.3s;
+
+}
+
+.feature:hover{
+
+    background:#362566;
+
+}
+
+.feature span{
+
+    font-weight:600;
+
+}
+
+.hackathon-image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+}
+
+
+/* ===========================
+        Venue
+=========================== */
+
+.venue-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:50px;
+
+    align-items:center;
+
+}
+
+.venue-info h3{
+
+    font-size:32px;
+
+    margin-bottom:20px;
+
+}
+
+.venue-info p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.venue-info ul{
+
+    list-style:none;
+
+}
+
+.venue-info li{
+
+    margin-bottom:18px;
+
+    font-size:18px;
+
+}
+
+.venue-map img{
+
+    width:100%;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+
+/* ===========================
+        Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.hackathon-container,
+.venue-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.hackathon-image{
+
+order:-1;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.section{
+
+padding:70px 5%;
+
+}
+
+.section-title{
+
+font-size:34px;
+
+}
+
+.hackathon-text h2{
+
+font-size:34px;
+
+}
+
+.hackathon-features{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* ===================================
+        NEWSLETTER SECTION
+=================================== */
+
+.newsletter-area{
+
+    padding:100px 8%;
+    background:#f5fbff;
+
+}
+
+.newsletter-wrapper{
+
+    max-width:1100px;
+    margin:auto;
+
+    background:white;
+
+    padding:70px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    text-align:center;
+
+}
+
+.newsletter-badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#CAF0F8;
+
+    color:#0077B6;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.newsletter-heading{
+
+    font-size:46px;
+
+    margin-bottom:20px;
+
+    color:#023E8A;
+
+}
+
+.newsletter-text{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+.newsletter-form{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:18px;
+
+    flex-wrap:wrap;
+
+}
+
+.newsletter-form input{
+
+    width:420px;
+
+    max-width:100%;
+
+    padding:18px 22px;
+
+    border:2px solid #CAF0F8;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.newsletter-form input:focus{
+
+    border-color:#0077B6;
+
+}
+
+.newsletter-form button{
+
+    padding:18px 36px;
+
+    background:#0077B6;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.newsletter-form button:hover{
+
+    background:#023E8A;
+
+    transform:translateY(-3px);
+
+}
+
+
+
+/* ===================================
+        FINAL CTA
+=================================== */
+
+.conference-cta{
+
+    padding:120px 8%;
+
+    background:linear-gradient(135deg,#023E8A,#0077B6,#00B4D8);
+
+}
+
+.conference-cta-box{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.cta-small-text{
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:15px;
+
+    opacity:.9;
+
+    margin-bottom:15px;
+
+}
+
+.cta-main-title{
+
+    font-size:56px;
+
+    margin-bottom:25px;
+
+}
+
+.cta-description{
+
+    max-width:720px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+    opacity:.92;
+
+    margin-bottom:45px;
+
+    font-size:18px;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.cta-primary-btn{
+
+    text-decoration:none;
+
+    background:white;
+
+    color:#0077B6;
+
+    padding:18px 38px;
+
+    border-radius:10px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.cta-primary-btn:hover{
+
+    background:#CAF0F8;
+
+    transform:translateY(-4px);
+
+}
+
+.cta-secondary-btn{
+
+    text-decoration:none;
+
+    color:white;
+
+    border:2px solid white;
+
+    padding:18px 38px;
+
+    border-radius:10px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.cta-secondary-btn:hover{
+
+    background:white;
+
+    color:#0077B6;
+
+    transform:translateY(-4px);
+
+}
+
+
+
+/* ===================================
+        RESPONSIVE
+=================================== */
+
+@media (max-width:768px){
+
+.newsletter-wrapper{
+
+    padding:45px 25px;
+
+}
+
+.newsletter-heading{
+
+    font-size:34px;
+
+}
+
+.newsletter-form{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.newsletter-form input{
+
+    width:100%;
+
+}
+
+.newsletter-form button{
+
+    width:100%;
+
+}
+
+.cta-main-title{
+
+    font-size:38px;
+
+}
+
+.cta-description{
+
+    font-size:16px;
+
+}
+
+.cta-buttons{
+
+    flex-direction:column;
+
+}
+
+.cta-primary-btn,
+.cta-secondary-btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
