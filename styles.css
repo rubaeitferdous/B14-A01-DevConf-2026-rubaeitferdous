@@ -232,7 +232,7 @@ nav a{
 
 
 .pricing-card{
-    width: 380px;
+    width: 350px;
     background: #fff;
     border: 1px solid #e5e7eb;
     border-radius: 18px;
@@ -305,6 +305,7 @@ nav a{
     color:#2d5be3;
     border-radius:8px;
     font-weight:700;
+    font-size: 20px;
 }
 
 .pricing-btn-2{
@@ -317,6 +318,7 @@ nav a{
     color:white;
     border:none;
     border-radius: 8px;
+    font-size: 20px;
  }
     
 
